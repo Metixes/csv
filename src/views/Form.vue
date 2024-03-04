@@ -6,8 +6,7 @@
       accept=".xlsx"
       :maxFileSize="1000000"
       @select="upload"
-      chooseLabel="Browse xlsx file"
-    />
+      chooseLabel="Browse xlsx file" />
 
     <hr />
 
@@ -20,8 +19,7 @@
       :loading="loading"
       :disabled="!file || loading"
       label="Generate"
-      @click="createData"
-    />
+      @click="createData" />
   </div>
 </template>
 
